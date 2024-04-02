@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         if (7 < 5) {
+             console.log('7 is less than 5');
+         } else  {
+             console.log('The condition is false');
+         }
+         const day = 'Sunday';
+         if (day === 'Monday') {
+             console.log('Today is Monday!');
+         } else if (day === 'Tuesday') {
+             console.log('Today is Tuesday');
+         } else if (day === 'Wednesday') {
+             console.log('Today is Wednesday');
+         } else if (day === 'Thursday') {
+             console.log('Today is Thursday');
+         } else if (day === 'Friday') {
+             console.log('Today is Friday');
+         } else if (day === 'Friday') {
+             console.log('Today is Friday');
+         } else if (day === 'Saturday') {
+             console.log('Today is Saturday');
+         } else if (day === 'Sunday') {
+             console.log('Today is Sunday');
+         } else {
+             console.log('That is not the day of the week!');
+         }
+
+         const month = 'April';
+
+         switch (month) {
+             case 'January':
+                 console.log('We are in the month of January');
+                //  break;
+             case 'February':
+                 console.log('We are in the month of February');
+                 break;
+             case 'March':
+                 console.log('We are in the month of March');
+                 break;
+             case 'April':
+                 console.log('We are in the month of April');
+                 break;
+             case 'May':
+                 console.log('We are in the month of May');
+                 break;
+             case 'June ':
+                 console.log('We are in the month of June');
+                 break;
+             default:
+                 console.log("It's not a month");
+         }
+         let currentDate = new Date();
+         console.log(currentDate);
+
+        // const year = currentDate.getFullYear();
+        // const month = ('0' + (currentDate.getMonth() + 1)).slice(-2); // Adding 1 because getMonth() returns zero-based month index
+        // const date = ('0' + currentDate.getDate()).slice(-2);
+        // const hour = ('0' + currentDate.getHours()).slice(-2);
+        // const minute = ('0' + currentDate.getMinutes()).slice(-2);
+
+        // // Concatenate components in the desired format
+        // const formattedDate = year + '/' + month + '/' + date + ' ' + hour + ':' + minute;
+
+        // console.log(formattedDate); // Output: "2024/03/26 15:30" (for example)
+        </script>
+</body>
+</html>
